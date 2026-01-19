@@ -36,6 +36,17 @@ To keep this documentation clean, we have provided a dedicated example file. You
 3. Add **#include "bettersyntax.h"** at the top of your source code.
 4. Use the **bettersyntax::** prefix or add **using namespace bettersyntax;** to start coding!
 
+## 🚀 Advanced Installation (System-wide)
+
+If you want to use **SyntaX** globally on your computer like `<iostream>`, follow these steps:
+
+1. Locate your compiler's include directory (e.g., `C:\MinGW\include`).
+2. Copy `bettersyntax.h` into that folder.
+3. (Optional) Rename it to `bettersyntax` (without the `.h`) for a cleaner look.
+4. Now you can include it in any project using:
+   ```cpp
+   #include <bettersyntax>
+
 ## 💻 Technical Details
 The library is safely wrapped in the **bettersyntax** namespace to prevent name collisions with the standard library (`std`) or other third-party tools. It uses preprocessor directives to ensure stability across different Operating Systems.
 
