@@ -1,4 +1,4 @@
-#include "bettersyntax.h"
+#include "bettersyntax.hpp"
 #include <vector>
 #include <string>
 
