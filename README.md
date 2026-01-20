@@ -1,4 +1,4 @@
-# SyntaX (bettersyntax.h) 🚀
+# SyntaX (bettersyntax.hpp) 🚀
 
 **SyntaX** is a lightweight, header-only C++ library designed to bring the **simplicity of Python's syntax** together with the **raw performance of C++**. 
 
@@ -10,7 +10,7 @@ Are you tired of complex C++ boilerplate code for simple tasks? **SyntaX** allow
 
 * **Python-like Syntax:** Familiar functions like `print()`, `input()`, and `randint()`.
 * **Cross-Platform:** Built-in support for **Windows, Linux, and macOS** using native APIs.
-* **Header-Only:** No complex installation or linking required. Just drop `bettersyntax.h` into your project.
+* **Header-Only:** No complex installation or linking required. Just drop `bettersyntax.hpp` into your project.
 * **Legacy Compiler Support:** Specifically optimized to work with **MinGW 6** and older environments where modern `std::thread` or `std::chrono` might be unstable.
 * **Memory Efficient:** Uses constant reference passing and optimized C++ streams for maximum performance.
 
@@ -31,9 +31,9 @@ To keep this documentation clean, we have provided a dedicated example file. You
 
 ## 📂 Installation
 
-1. Download the **bettersyntax.h** file from this repository.
+1. Download the **bettersyntax.hpp** file from this repository.
 2. Place it in your project's include directory or the root folder.
-3. Add **#include "bettersyntax.h"** at the top of your source code.
+3. Add **#include "bettersyntax.hpp"** at the top of your source code.
 4. Use the **bettersyntax::** prefix or add **using namespace bettersyntax;** to start coding!
 
 ## 🚀 Advanced Installation (System-wide)
@@ -41,8 +41,8 @@ To keep this documentation clean, we have provided a dedicated example file. You
 If you want to use **SyntaX** globally on your computer like `<iostream>`, follow these steps:
 
 1. Locate your compiler's include directory (e.g., `C:\MinGW\include`).
-2. Copy `bettersyntax.h` into that folder.
-3. (Optional) Rename it to `bettersyntax` (without the `.h`) for a cleaner look.
+2. Copy `bettersyntax.hpp` into that folder.
+3. (Optional) Rename it to `bettersyntax` (without the `.hpp`) for a cleaner look.
 4. Now you can include it in any project using:
    ```cpp
    #include <bettersyntax>
